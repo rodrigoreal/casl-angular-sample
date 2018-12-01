@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 import { AbilityModule } from '@casl/angular';
 
 import { AppComponent } from './app.component';
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [
@@ -10,7 +11,8 @@ import { AppComponent } from './app.component';
   ],
   imports: [
     BrowserModule,
-    AbilityModule
+    AbilityModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
